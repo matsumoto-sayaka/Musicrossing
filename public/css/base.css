@@ -1,0 +1,640 @@
+@charset "UTF-8";
+
+/* reset */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+table,
+form,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+    border-style: none;
+    display: block;
+}
+
+hr {
+    display: none;
+}
+
+em {
+    font-style: normal
+}
+
+input {
+    line-height: auto;
+    vertical-align: middle;
+}
+
+strong.more {
+    color: #c30
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+
+/* header */
+
+header {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header-contents {
+    display: flex;
+    width: 1100px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    margin: 0 0 0 auto;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 280px;
+    padding-left: 20px;
+}
+
+.titlelogo {
+    width: 250px;
+    margin-top: 25px;
+    padding-right: 300px;
+}
+
+.search {
+    width: 100px;
+}
+
+.exchange {
+    width: 100px;
+}
+
+.favorite {
+    width: 100px;
+}
+
+.profile {
+    width: 90px;
+    padding-right: 30px;
+    color: white;
+}
+
+.login {
+    text-decoration: underline;
+    margin: 0 0 0 auto;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.profile p {
+    font-size: 5px;
+    text-align: center;
+}
+
+
+/* index */
+
+.listbox {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: rgb(230, 243, 240);
+}
+
+.users {
+    /* height: 100%; */
+    margin-top: 25px;
+    margin-left: 73px;
+    margin-right: 73px;
+    display: flex;
+    background-color: rgb(178, 221, 210);
+    color: black;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.users-item-title {
+    margin: 5px;
+    padding: 3px 15px;
+    font-size: 1px;
+    color: white;
+    background-color: gray;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+.photo {
+    width: 100px;
+    padding: 5px;
+}
+
+.list {
+    width: 800px;
+    font-size: 15pt;
+    padding: 5px;
+}
+
+.list {
+    width: 800px;
+    font-size: 15pt;
+    padding: 5px;
+}
+
+.part,
+.gender,
+.age,
+.state,
+.skill {
+    text-align: center;
+}
+
+.name-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12pt;
+    font-weight: normal;
+    padding-top: 15px;
+}
+
+.faborite-done {
+    width: 100px;
+    margin: auto;
+}
+
+.result {
+    width: 1220px;
+    height: 30px;
+    padding: 20px;
+    padding-right: 150px;
+    text-align: right;
+}
+
+.next {
+    width: 1010px;
+}
+
+.next a {
+    background: #fff;
+    border: 2px solid #9d9d9d;
+    width: 150px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10pt;
+    padding: 7px;
+}
+
+
+/* sign up */
+
+.signupbox {
+    width: 800px;
+    height: 850px;
+    margin: 0 auto;
+    background-color: rgb(230, 243, 240);
+}
+
+.fieldtitle {
+    font-weight: bold;
+}
+
+.textareafield {
+    width: 610px;
+    height: 100px;
+    font-size: 20px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+}
+
+
+/* login */
+
+.loginbox {
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(228, 182, 240);
+}
+
+.move_to_signup {
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.password_reset {
+    padding-top: 20px;
+    font-size: 4pt;
+}
+
+
+/* complete */
+
+.formarea {
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(228, 182, 240);
+}
+
+.move_to_login {
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+
+/* search */
+
+.searchbox {
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgb(230, 243, 240);
+}
+
+.searchtitle {
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 5px;
+    background-color: rgb(0, 5, 4);
+}
+
+.searchtitle p {
+    color: white;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.searchmain {
+    font-size: 15pt;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.item-gender,
+.item-age,
+.item-part,
+.item-skill,
+.item-state {
+    width: 200px;
+}
+
+.genderbox,
+.agebox,
+.partbox,
+.statebox,
+.emailbox,
+.passwordbox {
+    height: 70px;
+    display: flex;
+}
+
+.genderbox {
+    padding-top: 30px;
+}
+
+.skillbox {
+    height: 100px;
+    display: flex;
+}
+
+.answer-skill {
+    line-height: 2;
+}
+
+.sendbtn {
+    width: 100%;
+    height: 50px;
+    margin: 0px 0px 20px 0px;
+    color: white;
+    font-size: 30px;
+    background-color: #e100ff;
+}
+
+
+/* profile */
+
+.user-profilebox {
+    width: 950px;
+    height: 550px;
+    margin: auto;
+    background-color: rgb(193, 231, 222);
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.user-prof-details1 {
+    display: flex;
+    width: 560px;
+    margin: auto;
+}
+
+.dm {
+    width: 170px;
+    height: 25px;
+    margin-left: 51px;
+    padding: 5px;
+    text-align: center;
+}
+
+.dm a.btn--pink.btn--border-ridge {
+    background-color: rgb(245, 168, 155);
+    border: 6px ridge #ee7684;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+.user-prof-details2 {
+    display: flex;
+    width: 520px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.user-prof-photo {
+    width: 280px;
+}
+
+.user-prof-details {
+    font-size: 12pt;
+    line-height: 2.5;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.user-nickname {
+    width: 180px;
+    padding: 5px;
+    background-color: lavender;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.user-gender {
+    width: 180px;
+    padding: 5px;
+    background-color: rgb(210, 210, 250);
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.user-age {
+    width: 180px;
+    padding: 5px;
+    background-color: lavender;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.user-part {
+    width: 180px;
+    padding: 5px;
+    background-color: rgb(210, 210, 250);
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.user-skill {
+    width: 180px;
+    padding: 5px;
+    background-color: lavender;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.user-state {
+    width: 180px;
+    padding: 5px;
+    background-color: rgb(210, 210, 250);
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.self-pr {
+    width: 600px;
+    padding: 5px;
+    background-color: lavender;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+
+/* mypage */
+
+.edit {
+    text-align: right;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.myprofilebox {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(193, 231, 222);
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+.myprof-details1 {
+    display: flex;
+    width: 500px;
+    margin-left: 240px;
+    font-size: 15pt;
+    line-height: 3.5;
+}
+
+.myprof-photo-answer {
+    width: 70px;
+    margin-left: 30px;
+}
+
+.myprof-details2 {
+    width: 560px;
+    margin: auto;
+    padding-top: 40px;
+    font-size: 15pt;
+}
+
+.logout {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.logout a.btn--yellow {
+    color: blue;
+    background-color: #fff100;
+    border-bottom: 5px solid #ccc100;
+    padding: 7px;
+}
+
+
+/* update */
+
+.update {
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+footer {
+    margin: 70px 0px 30px 0px;
+}
+
+footer p {
+    width: 1250px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+/* exchange_all */
+
+.exchange-list {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.exchange-item {
+    margin: 30px;
+    align-items: end;
+}
+
+.host-user-msg {
+    margin-right: 20px;
+    padding: 30px;
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    display: table;
+    position: relative;
+}
+
+.host-user-msg-fukidashi {
+    position: absolute;
+    right: -20px;
+    border-left: 20px solid yellowgreen;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.exchange-item-left {
+    display: flex;
+    align-items: end;
+}
+
+.guest-user-msg {
+    margin-left: 20px;
+    padding: 30px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.guest-user-msg-fukidashi {
+    position: absolute;
+    left: -20px;
+    border-top: 10px solid transparent;
+    border-right: 20px solid yellow;
+    border-bottom: 10px solid transparent;
+}
+
+.exchange-item-right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.exchange-form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg-time {
+    padding: 0px 3px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* exchange */
+
+.exchange-body {
+    display: flex;
+    align-items: center;
+}
+
+.exchange-body-mark {
+    margin: 12px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+body {
+    /* background-color: red; */
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
